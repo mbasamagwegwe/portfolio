@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <style>
+        .cta {
+            display: inline-block;
+            padding: 10px 30px;
+            color: BLACK;
+            background-color: grey;
+            border: 6px solid coral;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+            margin-top: 30px;
+            transition: .3s ease;
+            transition-property: background-color, color;
+        }
+        
+        .cta:hover {
+            color: white;
+            background-color: black;
+        }
+        
+        body {
+            background-color: black;
+        }
+        
+        .model img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .model {
+            width: 500px;
+            height: 500px
+        }
+        
+        .content {
+            width: 90%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        img {
+            border: 5px solid #555;
+        }
+        
+        .main-text {
+            width: 500px;
+        }
+        
+        .main-text h1 {
+            font-size: 3.5rem;
+            color: coral;
+            margin: 0px, 0px, 10px, opx;
+            line-height: 60px;
+        }
+        
+        .main-text p {
+            color: black
+        }
+        
+        .pill-nav a {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 10px;
+            background-color: coral;
+        }
+        
+        .pill-nav a :hover {
+            background-color: coral;
+            color: black;
+        }
+        
+        .pill-nav a.active {
+            background-color: coral;
+            color: black
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="pill-nav">
+            <a class="active" href="index.html">HOME</a>
+            <a href="index1.html">ABOUT</a>
+            <a href="index2.html">PROJECTS</a>
+            <a href="index3.html">CONTACTS</a>
+        </div>
+    </center>
+    <div class="content">
+
+
+        <div class="model">
+
+            <img src="mbasa.jpg" width="400px" height="400px">
+
+        </div>
+
+
+
+
+        <div class="main-text">
+
+
+            <h1>Hi,I'm Mbasa Magwegwe, I am a Front-end Web Developer..</h1>
+
+
+            <a href="index1.html" type="button " class="cta ">VIEW MORE</a>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>contact</title>
+
+    <style>
+        .topnav {
+            background-color: coral;
+            overflow: hidden;
+        }
+        
+        body {
+            text-align: center;
+            background-color: black;
+            border-style: double;
+        }
+        
+        .pill-nav a {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 10px;
+            background-color: coral;
+        }
+        
+        .pill-nav a :hover {
+            background-color: coral;
+            color: black;
+        }
+        
+        .pill-nav a.active {
+            background-color: coral;
+            color: black
+        }
+        
+        a {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        hr {
+            border-style: double;
+            color: black;
+        }
+        
+        input[type=text] {
+            border: none;
+            border-bottom: 2px solid black;
+            width: 300px;
+            margin-top: 20px;
+            height: 50px;
+        }
+        
+        label {
+            display: block;
+            font: 1rem 'Fira Sans', sans-serif;
+            color: coral;
+        }
+        
+        input,
+        label {
+            margin: .4rem 0;
+        }
+        
+        textarea {
+            width: 20%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            resize: none;
+        }
+        
+        input[type=submit] {
+            background-color: coral;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        h1 {
+            color: coral;
+        }
+        
+        a {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <div class="pill-nav">
+        <a class="active" href="index.html">HOME</a>
+        <a href="index1.html">ABOUT</a>
+        <a href="index2.html">PROJECTS</a>
+        <a href="index3.html">CONTACT</a>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="contact">
+        <h1>CONTACT ME</h1>
+        <hr width="200">
+
+
+
+        <form action="https://formspree.io/f/mzbknrqe" method="POST">
+
+            <label for="fname">FirstName</label>
+
+            <input type="text" id="fname" name="firstName" placeholder="Enter your name">
+
+
+
+
+            <label for="email">E-mail</label>
+
+            <input type="text" id="email" name="_replyto" placeholder="Enter your email">
+
+            <label for="subject">Subject</label>
+
+
+            <textarea id="message" name="message" placeholder="write your message"></textarea><br>
+
+
+
+            <input type="submit" value="submit">
+
+
+        </form>
+    </div>
+
+
+
+    <section>
+        <footer>
+
+
+            <h1>FOR MORE INFORMATION</h1>
+            <hr width="200">
+            <a href="https://github.com/mbasamagwegwe">
+                <img border=" 0 " alt="github " src="github.png " width="50 " height="50 "></a>
+
+            <a href="https://www.linkedin.com/in/mbasa-magwegwe-8a462b1b3 ">
+                <img border=" 0 " alt="linkedin " src="linkedin.png " width="50 " height="50 "></a>
+        </footer>
+
+    </section>
+
+
+</body>
+
+</html>
